@@ -66,7 +66,7 @@ come="echo '{}' > {}".format(well,out_star)
 os.system(come)
 
 for n,tomo in enumerate(scipion_str['tomo_name']):
-    ts_stack = scipion_str['motioncor_path'][n] + '/' + tomo + '.mrcs'
+    ts_stack = scipion_str['ts_path'][n] + '/' + tomo + '.mrcs'
     imod_folder = scipion_str['aretomo_path'][n] + '/' + tomo +'/' + tomo +'_Imod'
     ctf= scipion_str['aretomo_path'][n] + '/' + tomo +'/' + tomo + 'ctf.txt'
     cull=scipion_str['aretomo_path'][n] + '/' + tomo +'/' + tomo +'_culled.mrc'
