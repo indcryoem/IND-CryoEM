@@ -2,9 +2,7 @@ import os
 import pandas as pd
 
 def get_tomo_name(scipion_folder):
-    
-    def get_tomo_name(scipion_folder):
-    
+     
     scipion_abs_path = os.path.abspath(scipion_folder)
     scipion_runs = scipion_abs_path + '/Runs'
         
